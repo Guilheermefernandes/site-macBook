@@ -1,0 +1,784 @@
+:root{
+    --background-color-white: #fff;
+    --background-color-black: #000;
+    --background-color-blue: #0077ed;
+    --background-color-bar-footer: #d2d2d7;
+    --background-color-font-footer: #6e6e73;
+    --font-family: font-family: 'san-fransisco';;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'san-fransisco';
+    src: url('../font-web-apple/SF-UI-Display-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'san-fransisco';
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    min-height: 44px;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+nav li a{
+    display: block;
+    color: var(--background-color-white);
+    text-decoration: none;
+    font-family: arial;
+    font-size: 12px;
+    padding: 0px 20px;
+    color: #c4c4c4;
+}
+.search_buy ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.search_buy ul li a img{
+    padding: 0px 20px;
+}
+.area_macboks_versoes_acessorios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9fa;
+    padding: 10px;
+}
+.macbook_13_pro_pol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.macbook_14{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comprarar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.acessorios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.monterey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.area_text_macbook{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #686868;
+    line-height: 17px;
+}
+.padding_cont_macbooks_20{
+    padding: 0px 20px;
+}
+.comprarar{
+    margin: 0px 0px 26px 0px;
+}
+.acessorios{
+    margin: 0px 0px 26px 0px;
+}   
+.monterey{
+    margin: 0px 0px 26px 0px;
+}
+/*
+area tamanhos das imagne s refernetes a div macbooks
+*/
+
+.macbook_14 .area_image_mackbook img{    
+    width: 80px;
+    height: auto;
+}
+.comprarar .area_image_mackbook img{
+    width: 45px;
+    height: auto;
+}
+.acessorios .area_image_mackbook img{    
+    width: 33px;
+    height: auto;
+}
+.monterey .area_image_mackbook img{
+    width: 35px;
+    height: auto;
+}
+.area_image_mackbook img{    
+    width: 50px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.macbook_13_pro_pol a{
+    text-decoration: none;
+    color: #686868;
+    text-align: center;
+}
+/*
+    area section healine macnook pro
+*/
+.padding_mackbookpro_headline{
+    padding: 66px 0px 122px 0px;
+}
+#macbook_pro{
+    display: flex;
+    justify-content: center;
+}
+.container-macbookpro{
+    display: flex;
+    width: 980px;
+    flex-direction: column;
+    align-items: center;
+}
+.headline_text_title{
+    font-size: 75px;
+    font-weight: bold;
+    color: var(--background-color-black);
+    font-family: 'san-fransisco';
+    margin-bottom: 75px;
+}
+.area-macbooks-headline{
+    display: flex;
+    align-items: flex-end;
+}
+.image-macbook13{
+    margin-bottom: 0px 0px 50px 0px;
+}
+.image-mackbook14 img{
+    width: 578px;
+    height: 258px;
+    margin-bottom: 0px 0px 54px 0px;
+}
+.area-text-macbook-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.desc-model-mac-headline{
+    color: #575757;
+    font-size: 14px;
+    font-family: var(--font-family);
+    margin-bottom: 20px;
+}
+.title-mac-headline{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #222222;
+    margin-bottom: 10px;
+}
+.money-mack-headline{
+    font-size: 21px;
+    color: #2c2b2b;
+    font-weight: bold;
+    font-family: var(--font-family);
+    margin-bottom: 30px;
+}
+.area-buy-mac-saibamais{
+    display: flex;
+    align-items: center;
+}
+.buy-mac a{
+    display: block;
+    font-size: 16px;
+    color: var(--background-color-white);
+    text-decoration: none;
+    font-family: var(--font-family);
+    padding: 8px 17px;
+    background-color: var(--background-color-blue);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.sobre-mac a{
+    display: block;
+    color: var(--background-color-blue);
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+.sobre-mac a:hover{
+    text-decoration: underline;
+}
+.teste{
+    position: absolute;
+    top: 715px;
+    font-family: var(--font-family);
+    color:#cf733e;
+    font-size: 13px;
+    font-weight: bold;
+}
+#mac-ideal-options{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9fa;
+}
+.container-mec-options{
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 0px 110px 0px;
+}
+.area-headline-title-comparation{
+    margin-bottom: 80px;
+}
+.headline-comparation{
+    font-size: 45px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    text-align: center;
+}
+.area-comparations-mackbooks{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.comparation-mac{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+}
+.image-circle-comparation{
+    margin-top: 17px;
+    margin-bottom: 32px;
+}
+.title-comparation-mac{
+    font-size: 25px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 15px;
+}
+.cust-money-compration-mac{
+    font-size: 14px;
+    color: #333333;
+    font-family: var(--font-family);
+    margin-bottom: 15px;
+}
+.buy-compration-mac a{
+    display: block;
+    font-size: 12px;
+    color: var(--background-color-white);
+    text-decoration: none;
+    font-family: var(--font-family);
+    background-color: var(--background-color-blue);
+    padding: 4px 11px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.saiba-mais-comprations-mac a{
+    display: block;
+    text-decoration: none;
+    color: var(--background-color-blue);
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+.saiba-mais-comprations-mac a:hover{
+    text-decoration: underline;
+}
+.bar-comparation-saparation{
+    width: 100%;
+    height: 1px;
+    background-color: #c4c4c4;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.chip-apple-comparation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.icon-chip-apple{
+    margin-bottom: 5px;
+}
+.text-chip-apple-comparation{
+    color: #575757;
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+.area-info-cpus, .area-infos-gpus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title-cpu-comparation, .title-gpu-comparation{
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: #575757;
+    margin-bottom: 5px;
+}
+.desc-info-cpus, .desc-infos-gpus{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+.area-memoria-uni{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.text-memoria-uni{
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: #575757;
+}
+.area-capacity-maxi-armanezamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title-info-capacidade-armanezamento{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+.desc-text-armanezamento{
+    font-size: 14px;
+    color: #575757;
+    font-family: var(--font-family);
+    margin-top: 5px;
+}
+.desc-text-armanezamento a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+.desc-text-armanezamento a:hover{
+    color: var(--background-color-blue);
+}
+.area-size-pol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title-size-comparation{
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: #575757;
+}
+.desc-size-product-pol{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    margin-top: 5px;
+}
+.desc-size-product-pol a{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--background-color-black);
+}
+.desc-size-product-pol a:hover{
+    color: var(--background-color-blue);
+}
+.baterry-duration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.desc-capacyti-baterry{
+    font-size: 14px;
+    color: #575757;
+    font-family: var(--font-family);
+}
+.desc-capacyti-baterry a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 12px;
+}
+.desc-capacyti-baterry a:hover{
+    color: var(--background-color-blue);
+}
+.area-cam-mac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.text-cam-macbook{
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: #575757;
+}
+.area-peso-mac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+.title-peso{
+    font-size: 14px;
+    color: #575757;
+    font-family: var(--font-family);
+}
+.desc-text-info-peso-mac{
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+.area-touch-id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.desc-text-touch-id-info{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #575757;
+    font-family: var(--font-family);
+}
+.area-comparation-mac-buy-mac-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comparations-for-macs-button a{
+    display: block;
+    color: var(--background-color-blue);
+    font-family: var(--font-family);
+    font-size: 21px;
+    text-decoration: none;
+}
+.buy-mac-apple-button a{
+    display: block;
+    margin-left: 20px;
+    font-size: 21px;
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: var(--background-color-blue);
+}
+.comparations-for-macs-button a:hover,
+.buy-mac-apple-button a:hover{
+    text-decoration: underline;
+}
+#acessorios-apple{
+    padding: 28px;
+}
+.area-buy-acessorios-apple{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+.headline-acessorios-buy{
+    padding: 64px 0px;
+    text-align: center;
+}
+.name-area-acessories{
+    font-size: 24px;
+    color: #222222;
+    font-family: var(--font-family);
+    margin-bottom: 15px;
+}
+.title-acessories{
+    font-size: 48px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222222;
+}
+.buttom-acessories-area a{
+    display: inline-block;
+    color: var(--background-color-white);
+    background-color: var(--background-color-blue);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 900px;
+    font-size: 17px;
+    font-family: var(--font-family);
+}
+.banner-headline-acessories{
+    background-image: url('https://www.apple.com/br/macbook-pro/images/overview/accessories__geg8014ci2mq_large.jpg');
+    background-size: 1208px 452px;
+    width: 1208px;
+    height: 452px;
+    margin-bottom: 50px;
+}
+#area-image-apple-work{
+    padding: 0px 28px 28px 28px;
+}
+.area-images-apple{
+    display: flex;
+}
+.image-apple-one{
+    background-image: url('https://www.apple.com/v/macbook-pro/ac/images/overview/business__ww84q61opmqy_large.jpg');
+    width: 675px;
+    height: 600px;
+    margin-right: 15px;
+}
+.image-apple-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headline-texts-images-one h2{
+    font-size: 48px;
+    font-family: var(--font-family);
+    color: var(--background-color-white);
+    padding: 0px;
+    margin: 0px;
+}
+.headline-texts-images-one{
+    text-align: center;
+}
+
+.image-apple-two{
+    background-image: url('https://www.apple.com/v/macbook-pro/ac/images/overview/education__d82em19gb3ue_large.jpg');
+    width: 675px;
+    height: 600px;
+    margin-left: 15px;
+}
+.image-apple-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headline-text-images-two h2{
+    font-size: 48px;
+    font-family: var(--font-family);
+    color: var(--background-color-white);
+    padding: 0px;
+    margin: 0px;
+}
+.headline-text-images-two{
+    text-align: center;
+}
+.headline-texts-images-one p,
+.headline-text-images-two p{
+    color: var(--background-color-white);
+    font-family: var(--font-family);
+    font-size: 17px;
+}
+.headline-texts-images-one p a,
+.headline-text-images-two p a{
+    color: var(--background-color-white);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: var(--font-family);
+}
+.headline-texts-images-one p a:hover,
+.headline-text-images-two p a:hover{
+    text-decoration: underline;
+}
+#area-frete-opcoes-pay{
+    padding: 92px 28px;
+}
+.area-frete-pay{
+    display: flex;
+    justify-content: space-around;
+}
+.text-frete{
+    text-align: center;
+}
+.text-headline-free{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: #333333;
+}
+.desc-free-delivery-pay{
+    font-family: var(--font-family);
+    font-size: 21px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.buttom-free-delivery-pay a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--background-color-blue);
+    font-size: 21px;
+    font-family: var(--font-family);
+}
+.text-pay{
+    text-align: center;
+}
+footer{
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+}
+.container-footer{
+    width: 980px;
+    padding: 20px 0px;
+}
+.bar-footer-separation-conteudo{
+    width: 100%;
+    height: 1px;
+    background-color: var(--background-color-bar-footer);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer h5{
+    color: var(--background-color-font-footer);
+    font-size: 12px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer-pattern-color-font{
+    color: var(--background-color-font-footer);
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 20px;
+}
+.pattern-displayflex-footer{
+    display: flex;
+}
+.pattern-margin-footer-paragrafo{
+    margin-right: 5px;
+}
+.img-lyst-footer-logo-apple{
+    width: 15px;
+}
+.arear-footer-lyst ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.area-footer-map-apple-products{
+    display: flex;
+}
+.area-products-descobrir-comprar,
+.area-products-services,
+.area-product-apple-store,
+.area-products-empresas,
+.area-products-valores-apple{
+    flex: 1;
+}
+.footer-h3-text-decoration{
+    font-size: 12px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    color: #222222;
+}
+.area-products-descobrir-comprar ul,
+.area-products-services ul,
+.area-product-apple-store ul,
+.area-products-empresas ul,
+.area-products-valores-apple ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.area-products-descobrir-comprar li a,
+.area-products-services li a,
+.area-product-apple-store li a,
+.area-products-empresas li a,
+.area-products-valores-apple li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #3d3c3c;
+    font-family: var(--font-family);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.area-products-descobrir-comprar li a:hover,
+.area-products-services li a:hover,
+.area-product-apple-store li a:hover,
+.area-products-empresas li a:hover,
+.area-products-valores-apple li a:hover{
+    text-decoration: underline;
+}
+.area-infos-regions-politics{
+    line-height: 20px;
+}
+.area-footer-local-contact{
+    margin-top: 20px;
+}
+.area-footer-local-contact address{
+    font-style: normal;
+    font-size: 12px;
+    font-family: var(--font-family);
+    color: var(--background-color-font-footer);
+    line-height: 18px;
+}
+.area-footer-local-contact address a{
+    color: var(--background-color-blue);
+    text-decoration: none;
+}
+.area-footer-local-contact address a:hover{
+    text-decoration: underline;
+}
+.area-footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.text-copyright-footer{
+    font-size: 12px;
+    color: var(--background-color-font-footer);
+    font-family: var(--font-family);
+}
+.footer-region{
+    font-family: var(--font-family);
+    color: #3d3c3c;
+    font-size: 12px;
+}
+
+.footer-politicas ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.footer-politicas li a{
+    display: block;
+    color: #3d3c3c;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: 12px;
+}
+.footer-politicas li a:hover{
+    text-decoration: underline;
+}
+.style-bar-footer-politics{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid var(--background-color-bar-footer);
+}
+.style-bar-footer-padding{
+    padding-right: 10px;
+    border-right: 1px solid var(--background-color-bar-footer);
+}
